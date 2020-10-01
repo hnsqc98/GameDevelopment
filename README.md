@@ -1,7 +1,7 @@
 # GameDevelopment
 《游戏开发基础》课程仓库 - 沈琪川
+### 每次的作业在对应的branch里，老师可以切换branch查看、下载。
 * 01.开发环境
-  * [小游戏demo《Jumping》，2D竖版跳跃](https://github.com/hnsqc98/GameDevelopment/tree/master/L1)
 * 02.脚本语言基础
 * 03.数学和物理基础
 * 04.模型技术

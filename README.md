@@ -1,5 +1,5 @@
 # 《互动媒体开发基础》-沈琪川
-## 第一课作业：小游戏《Jumping》
+## 第一课作业：A类，小游戏《Jumping》
 ### 文件说明
 * Game_Can_Play：存放Build后的游戏，打开exe文件即可体验游戏。
 * ShenQichuan_Game：存放游戏源代码。

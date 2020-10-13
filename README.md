@@ -14,7 +14,5 @@
 * 修改的代码位置
 ```
 IMDT/Assets/CollosionTest.cs
-```
-```
 IMDT/Assets/OtherSphere.cs
 ```

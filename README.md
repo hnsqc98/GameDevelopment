@@ -2,7 +2,7 @@
 ## 第四课作业：A类-模型制作应用
 ### 文件说明
 * obj模型文件（两套）
-* fbx模型文件
+* fbx模型文件(带贴图）
 * .mb的Maya模型文件：`shenqichuan_crocodile.mb`
 * Unity工程文件：`unity_sqc_crocodile`
 * 模型的LOD数据（三套）

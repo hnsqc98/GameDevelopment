@@ -79,13 +79,13 @@
     <None Include="Assets\Shaders\Backgound.shader" />
     <None Include="Assets\Shaders\Lambert.shader" />
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>E:/清华大学/2020秋/游戏开发基础/03.数学和物理基础/IMDT/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>E:/TsinghuaGame/GameDevelopment/IMDT/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>E:/清华大学/2020秋/游戏开发基础/03.数学和物理基础/IMDT/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>E:/TsinghuaGame/GameDevelopment/IMDT/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>E:/清华大学/2020秋/游戏开发基础/03.数学和物理基础/IMDT/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>E:/TsinghuaGame/GameDevelopment/IMDT/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Unity/2018.4.27f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -292,7 +292,7 @@
       <HintPath>D:/Unity/2018.4.27f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>E:/清华大学/2020秋/游戏开发基础/03.数学和物理基础/IMDT/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>E:/TsinghuaGame/GameDevelopment/IMDT/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:/Unity/2018.4.27f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

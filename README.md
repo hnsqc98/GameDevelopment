@@ -3,7 +3,7 @@
 ### 文件说明
 * obj模型文件（两套）
 * fbx模型文件
-* .mb的Maya模型文件
+* .mb的Maya模型文件：`shenqichuan_crocodile.mb`
 * Unity工程文件：`unity_sqc_crocodile`
 * 模型的LOD数据（三套）
 ### 实现内容

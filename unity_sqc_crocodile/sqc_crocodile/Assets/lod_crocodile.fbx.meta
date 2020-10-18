@@ -1,0 +1,1072 @@
+fileFormatVersion: 2
+guid: 09aa3f5b9a5a47a4fbe2a2b413cd54dc
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn1
+    second: {fileID: 2100000, guid: bcfd28a3513bfd3468169d5c739f6cd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn2
+    second: {fileID: 2100000, guid: f3479974c82f2bf498d8479020070bbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn4
+    second: {fileID: 2100000, guid: a78f4e04e6447dd47a442945eb285d48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: body1
+    second: {fileID: 2100000, guid: ba83b880ec81e074992657afb7e3b2de, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: outUV
+    second: {fileID: 2800000, guid: 014f9e2813c7e6e47b2d3f76a399a5c3, type: 3}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: lod_crocodile(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: highpoly
+      parentName: lod_crocodile(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shenqichuan_crocodile
+      parentName: highpoly
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body
+      parentName: shenqichuan_crocodile
+      position: {x: -0, y: 0.017581474, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.67725825, y: 0.67725825, z: 0.67725825}
+    - name: shenqichuan_crocodile 3
+      parentName: body
+      position: {x: -0, y: 0.017072652, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eye
+      parentName: shenqichuan_crocodile
+      position: {x: 1.110223e-18, y: 0.039046064, z: 1.6653345e-18}
+      rotation: {x: 0, y: 0, z: 0.6708371, w: 0.74160475}
+      scale: {x: 0.12971497, y: 0.06609326, z: 0.12971497}
+    - name: bottom_tooth
+      parentName: shenqichuan_crocodile
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: left
+      parentName: bottom_tooth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0.008264511, z: 0.41047773, w: 0.91183317}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pPyramid1
+      parentName: left
+      position: {x: -0.0045765713, y: 0.03394074, z: 0.004083514}
+      rotation: {x: 0, y: -0.15813453, z: -0, w: 0.9874176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid2
+      parentName: left
+      position: {x: -0.006632808, y: 0.03394074, z: 0.003378135}
+      rotation: {x: 0, y: -0.14155187, z: -0, w: 0.98993087}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid3
+      parentName: left
+      position: {x: -0.008682021, y: 0.03389499, z: 0.0027415429}
+      rotation: {x: 0, y: -0.12658578, z: -0, w: 0.9919557}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid4
+      parentName: left
+      position: {x: -0.010784849, y: 0.033870436, z: 0.0020784105}
+      rotation: {x: 0, y: -0.13199075, z: -0, w: 0.991251}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid5
+      parentName: left
+      position: {x: -0.012734279, y: 0.03364195, z: 0.0016805466}
+      rotation: {x: 0.01209023, y: -0.058031935, z: -0.040725283, w: 0.9974104}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid6
+      parentName: left
+      position: {x: -0.014491575, y: 0.03364195, z: 0.0016629172}
+      rotation: {x: 0.0013867113, y: -0.07590784, z: -0.018212592, w: 0.9969476}
+      scale: {x: 0.110119216, y: 0.33655253, z: 0.07156959}
+    - name: pPyramid7
+      parentName: left
+      position: {x: -0.015534241, y: 0.03364195, z: 0.00067734317}
+      rotation: {x: -0.009395243, y: -0.6381779, z: -0.01566368, w: 0.7696723}
+      scale: {x: 0.110119216, y: 0.33655253, z: 0.07156959}
+    - name: pPyramid15
+      parentName: left
+      position: {x: -0.0045765713, y: 0.03394074, z: 0.004083514}
+      rotation: {x: 0, y: -0.15813453, z: -0, w: 0.9874176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid16
+      parentName: left
+      position: {x: -0.006632808, y: 0.03394074, z: 0.003378135}
+      rotation: {x: 0, y: -0.14155187, z: -0, w: 0.98993087}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid17
+      parentName: left
+      position: {x: -0.008682021, y: 0.03389499, z: 0.0027415429}
+      rotation: {x: 0, y: -0.12658578, z: -0, w: 0.9919557}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid18
+      parentName: left
+      position: {x: -0.010784849, y: 0.033870436, z: 0.0020784105}
+      rotation: {x: 0, y: -0.13199075, z: -0, w: 0.991251}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid19
+      parentName: left
+      position: {x: -0.012734279, y: 0.03364195, z: 0.0016805466}
+      rotation: {x: 0.01209023, y: -0.058031935, z: -0.040725283, w: 0.9974104}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid20
+      parentName: left
+      position: {x: -0.014491575, y: 0.03364195, z: 0.0016629172}
+      rotation: {x: 0.0013867113, y: -0.07590784, z: -0.018212592, w: 0.9969476}
+      scale: {x: 0.110119216, y: 0.33655253, z: 0.07156959}
+    - name: pPyramid21
+      parentName: left
+      position: {x: -0.015534241, y: 0.03364195, z: 0.00067734317}
+      rotation: {x: -0.009395243, y: -0.6381779, z: -0.01566368, w: 0.7696723}
+      scale: {x: 0.110119216, y: 0.33655253, z: 0.07156959}
+    - name: right
+      parentName: bottom_tooth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: -1}
+    - name: pPyramid1 1
+      parentName: right
+      position: {x: -0.0045765713, y: 0.03394074, z: 0.004083514}
+      rotation: {x: 0, y: -0.15813453, z: -0, w: 0.9874176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid2 1
+      parentName: right
+      position: {x: -0.006632808, y: 0.03394074, z: 0.003378135}
+      rotation: {x: 0, y: -0.14155187, z: -0, w: 0.98993087}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid3 1
+      parentName: right
+      position: {x: -0.008682021, y: 0.03389499, z: 0.0027415429}
+      rotation: {x: 0, y: -0.12658578, z: -0, w: 0.9919557}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid4 1
+      parentName: right
+      position: {x: -0.010784849, y: 0.033870436, z: 0.0020784105}
+      rotation: {x: 0, y: -0.13199075, z: -0, w: 0.991251}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid5 1
+      parentName: right
+      position: {x: -0.012734279, y: 0.03364195, z: 0.0016805466}
+      rotation: {x: 0.01209023, y: -0.058031935, z: -0.040725283, w: 0.9974104}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid6 1
+      parentName: right
+      position: {x: -0.014491575, y: 0.03364195, z: 0.0016629172}
+      rotation: {x: 0.0013867113, y: -0.07590784, z: -0.018212592, w: 0.9969476}
+      scale: {x: 0.110119216, y: 0.33655253, z: 0.07156959}
+    - name: pPyramid7 1
+      parentName: right
+      position: {x: -0.01525943, y: 0.03364195, z: 0.0008059084}
+      rotation: {x: -0.008373753, y: -0.68611753, z: -0.016232736, w: 0.7272614}
+      scale: {x: 0.11887186, y: 0.41561538, z: 0.0883827}
+    - name: pPyramid22
+      parentName: right
+      position: {x: -0.0045765713, y: 0.03394074, z: 0.004083514}
+      rotation: {x: 0, y: -0.15813453, z: -0, w: 0.9874176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid23
+      parentName: right
+      position: {x: -0.006632808, y: 0.03394074, z: 0.003378135}
+      rotation: {x: 0, y: -0.14155187, z: -0, w: 0.98993087}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid24
+      parentName: right
+      position: {x: -0.008682021, y: 0.03389499, z: 0.0027415429}
+      rotation: {x: 0, y: -0.12658578, z: -0, w: 0.9919557}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid25
+      parentName: right
+      position: {x: -0.010784849, y: 0.033870436, z: 0.0020784105}
+      rotation: {x: 0, y: -0.13199075, z: -0, w: 0.991251}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid26
+      parentName: right
+      position: {x: -0.012734279, y: 0.03364195, z: 0.0016805466}
+      rotation: {x: 0.01209023, y: -0.058031935, z: -0.040725283, w: 0.9974104}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid27
+      parentName: right
+      position: {x: -0.014491575, y: 0.03364195, z: 0.0016629172}
+      rotation: {x: 0.0013867113, y: -0.07590784, z: -0.018212592, w: 0.9969476}
+      scale: {x: 0.110119216, y: 0.33655253, z: 0.07156959}
+    - name: pPyramid28
+      parentName: right
+      position: {x: -0.01525943, y: 0.03364195, z: 0.0008059084}
+      rotation: {x: -0.008373753, y: -0.68611753, z: -0.016232736, w: 0.7272614}
+      scale: {x: 0.11887186, y: 0.41561538, z: 0.0883827}
+    - name: top_tooth
+      parentName: shenqichuan_crocodile
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: left 1
+      parentName: top_tooth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pPyramid8
+      parentName: left 1
+      position: {x: -0.005606732, y: 0.033599608, z: 0.003685599}
+      rotation: {x: -0.15152328, y: 0.00012150775, z: 0.9884461, w: -0.0038649077}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid9
+      parentName: left 1
+      position: {x: -0.007621116, y: 0.03390277, z: 0.0029824679}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid10
+      parentName: left 1
+      position: {x: -0.00977835, y: 0.034052856, z: 0.0023772006}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid11
+      parentName: left 1
+      position: {x: -0.011804585, y: 0.034052856, z: 0.0018340122}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid12
+      parentName: left 1
+      position: {x: -0.013667602, y: 0.03417933, z: 0.001852262}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.13304152, y: 0.40660894, z: 0.08646744}
+    - name: pPyramid13
+      parentName: left 1
+      position: {x: -0.015038707, y: 0.034234386, z: 0.0013831636}
+      rotation: {x: -0.26909825, y: 0.00058464234, z: 0.96310496, w: -0.0038223644}
+      scale: {x: 0.11256684, y: 0.34403312, z: 0.07316037}
+    - name: pPyramid14
+      parentName: left 1
+      position: {x: -0.01531761, y: 0.034113057, z: -0.0000053268564}
+      rotation: {x: 0.7191212, y: -0.0024370246, z: -0.69487387, w: 0.003002198}
+      scale: {x: 0.12908259, y: 0.39450943, z: 0.08389442}
+    - name: pPyramid30
+      parentName: left 1
+      position: {x: -0.007621116, y: 0.03390277, z: 0.0029824679}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid31
+      parentName: left 1
+      position: {x: -0.00977835, y: 0.034052856, z: 0.0023772006}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid32
+      parentName: left 1
+      position: {x: -0.011804585, y: 0.034052856, z: 0.0018340122}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid33
+      parentName: left 1
+      position: {x: -0.013667602, y: 0.03417933, z: 0.001852262}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.13304152, y: 0.40660894, z: 0.08646744}
+    - name: pPyramid34
+      parentName: left 1
+      position: {x: -0.015038707, y: 0.034234386, z: 0.0013831636}
+      rotation: {x: -0.26909825, y: 0.00058464234, z: 0.96310496, w: -0.0038223644}
+      scale: {x: 0.11256684, y: 0.34403312, z: 0.07316037}
+    - name: right 1
+      parentName: top_tooth
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: -1}
+    - name: pPyramid8 1
+      parentName: right 1
+      position: {x: -0.005606732, y: 0.033751886, z: 0.003685599}
+      rotation: {x: -0.15152328, y: 0.00012150775, z: 0.9884461, w: -0.0038649077}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid9 1
+      parentName: right 1
+      position: {x: -0.007621116, y: 0.03390277, z: 0.0029824679}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid10 1
+      parentName: right 1
+      position: {x: -0.00977835, y: 0.034052856, z: 0.0023772006}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid11 1
+      parentName: right 1
+      position: {x: -0.011804585, y: 0.034052856, z: 0.0018340122}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid12 1
+      parentName: right 1
+      position: {x: -0.013667602, y: 0.03417933, z: 0.001852262}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.13304152, y: 0.40660894, z: 0.08646744}
+    - name: pPyramid13 1
+      parentName: right 1
+      position: {x: -0.015038707, y: 0.034234386, z: 0.0013831636}
+      rotation: {x: -0.26909825, y: 0.00058464234, z: 0.96310496, w: -0.0038223644}
+      scale: {x: 0.11256684, y: 0.34403312, z: 0.07316037}
+    - name: pPyramid35
+      parentName: right 1
+      position: {x: -0.005606732, y: 0.033751886, z: 0.003685599}
+      rotation: {x: -0.15152328, y: 0.00012150775, z: 0.9884461, w: -0.0038649077}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid36
+      parentName: right 1
+      position: {x: -0.007621116, y: 0.03390277, z: 0.0029824679}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid37
+      parentName: right 1
+      position: {x: -0.00977835, y: 0.034052856, z: 0.0023772006}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid38
+      parentName: right 1
+      position: {x: -0.011804585, y: 0.034052856, z: 0.0018340122}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid39
+      parentName: right 1
+      position: {x: -0.013667602, y: 0.03417933, z: 0.001852262}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.13304152, y: 0.40660894, z: 0.08646744}
+    - name: pPyramid40
+      parentName: right 1
+      position: {x: -0.015038707, y: 0.034234386, z: 0.0013831636}
+      rotation: {x: -0.26909825, y: 0.00058464234, z: 0.96310496, w: -0.0038223644}
+      scale: {x: 0.11256684, y: 0.34403312, z: 0.07316037}
+    - name: middlepoly
+      parentName: lod_crocodile(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shenqichuan_crocodile 2
+      parentName: middlepoly
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body 2
+      parentName: shenqichuan_crocodile 2
+      position: {x: -0, y: 0.017581474, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.67725825, y: 0.67725825, z: 0.67725825}
+    - name: shenqichuan_crocodile 5
+      parentName: body 2
+      position: {x: -0, y: 0.017072652, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eye 2
+      parentName: shenqichuan_crocodile 2
+      position: {x: 1.110223e-18, y: 0.039046064, z: 1.6653345e-18}
+      rotation: {x: 0, y: 0, z: 0.6708371, w: 0.74160475}
+      scale: {x: 0.12971497, y: 0.06609326, z: 0.12971497}
+    - name: bottom_tooth 2
+      parentName: shenqichuan_crocodile 2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: left 4
+      parentName: bottom_tooth 2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pPyramid1 4
+      parentName: left 4
+      position: {x: -0.0045765713, y: 0.03394074, z: 0.004083514}
+      rotation: {x: 0, y: -0.15813453, z: -0, w: 0.9874176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid2 4
+      parentName: left 4
+      position: {x: -0.006632808, y: 0.03394074, z: 0.003378135}
+      rotation: {x: 0, y: -0.14155187, z: -0, w: 0.98993087}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid3 4
+      parentName: left 4
+      position: {x: -0.008682021, y: 0.03389499, z: 0.0027415429}
+      rotation: {x: 0, y: -0.12658578, z: -0, w: 0.9919557}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid4 4
+      parentName: left 4
+      position: {x: -0.010784849, y: 0.033870436, z: 0.0020784105}
+      rotation: {x: 0, y: -0.13199075, z: -0, w: 0.991251}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid5 4
+      parentName: left 4
+      position: {x: -0.012734279, y: 0.03364195, z: 0.0016805466}
+      rotation: {x: 0.01209023, y: -0.058031935, z: -0.040725283, w: 0.9974104}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid6 4
+      parentName: left 4
+      position: {x: -0.014491575, y: 0.03364195, z: 0.0016629172}
+      rotation: {x: 0.0013867113, y: -0.07590784, z: -0.018212592, w: 0.9969476}
+      scale: {x: 0.110119216, y: 0.33655253, z: 0.07156959}
+    - name: pPyramid7 4
+      parentName: left 4
+      position: {x: -0.015534241, y: 0.03364195, z: 0.00067734317}
+      rotation: {x: -0.009395243, y: -0.6381779, z: -0.01566368, w: 0.7696723}
+      scale: {x: 0.110119216, y: 0.33655253, z: 0.07156959}
+    - name: pPyramid15 2
+      parentName: left 4
+      position: {x: -0.0045765713, y: 0.03394074, z: 0.004083514}
+      rotation: {x: 0, y: -0.15813453, z: -0, w: 0.9874176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid16 2
+      parentName: left 4
+      position: {x: -0.006632808, y: 0.03394074, z: 0.003378135}
+      rotation: {x: 0, y: -0.14155187, z: -0, w: 0.98993087}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid17 2
+      parentName: left 4
+      position: {x: -0.008682021, y: 0.03389499, z: 0.0027415429}
+      rotation: {x: 0, y: -0.12658578, z: -0, w: 0.9919557}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid18 2
+      parentName: left 4
+      position: {x: -0.010784849, y: 0.033870436, z: 0.0020784105}
+      rotation: {x: 0, y: -0.13199075, z: -0, w: 0.991251}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid19 2
+      parentName: left 4
+      position: {x: -0.012734279, y: 0.03364195, z: 0.0016805466}
+      rotation: {x: 0.01209023, y: -0.058031935, z: -0.040725283, w: 0.9974104}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid20 2
+      parentName: left 4
+      position: {x: -0.014491575, y: 0.03364195, z: 0.0016629172}
+      rotation: {x: 0.0013867113, y: -0.07590784, z: -0.018212592, w: 0.9969476}
+      scale: {x: 0.110119216, y: 0.33655253, z: 0.07156959}
+    - name: pPyramid21 2
+      parentName: left 4
+      position: {x: -0.015534241, y: 0.03364195, z: 0.00067734317}
+      rotation: {x: -0.009395243, y: -0.6381779, z: -0.01566368, w: 0.7696723}
+      scale: {x: 0.110119216, y: 0.33655253, z: 0.07156959}
+    - name: right 4
+      parentName: bottom_tooth 2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: -1}
+    - name: pPyramid1 5
+      parentName: right 4
+      position: {x: -0.0045765713, y: 0.03394074, z: 0.004083514}
+      rotation: {x: 0, y: -0.15813453, z: -0, w: 0.9874176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid2 5
+      parentName: right 4
+      position: {x: -0.006632808, y: 0.03394074, z: 0.003378135}
+      rotation: {x: 0, y: -0.14155187, z: -0, w: 0.98993087}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid3 5
+      parentName: right 4
+      position: {x: -0.008682021, y: 0.03389499, z: 0.0027415429}
+      rotation: {x: 0, y: -0.12658578, z: -0, w: 0.9919557}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid4 5
+      parentName: right 4
+      position: {x: -0.010784849, y: 0.033870436, z: 0.0020784105}
+      rotation: {x: 0, y: -0.13199075, z: -0, w: 0.991251}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid5 5
+      parentName: right 4
+      position: {x: -0.012734279, y: 0.03364195, z: 0.0016805466}
+      rotation: {x: 0.01209023, y: -0.058031935, z: -0.040725283, w: 0.9974104}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid6 5
+      parentName: right 4
+      position: {x: -0.014491575, y: 0.03364195, z: 0.0016629172}
+      rotation: {x: 0.0013867113, y: -0.07590784, z: -0.018212592, w: 0.9969476}
+      scale: {x: 0.110119216, y: 0.33655253, z: 0.07156959}
+    - name: pPyramid7 5
+      parentName: right 4
+      position: {x: -0.01525943, y: 0.03364195, z: 0.0008059084}
+      rotation: {x: -0.008373753, y: -0.68611753, z: -0.016232736, w: 0.7272614}
+      scale: {x: 0.11887186, y: 0.41561538, z: 0.0883827}
+    - name: pPyramid22 2
+      parentName: right 4
+      position: {x: -0.0045765713, y: 0.03394074, z: 0.004083514}
+      rotation: {x: 0, y: -0.15813453, z: -0, w: 0.9874176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid23 2
+      parentName: right 4
+      position: {x: -0.006632808, y: 0.03394074, z: 0.003378135}
+      rotation: {x: 0, y: -0.14155187, z: -0, w: 0.98993087}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid24 2
+      parentName: right 4
+      position: {x: -0.008682021, y: 0.03389499, z: 0.0027415429}
+      rotation: {x: 0, y: -0.12658578, z: -0, w: 0.9919557}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid25 2
+      parentName: right 4
+      position: {x: -0.010784849, y: 0.033870436, z: 0.0020784105}
+      rotation: {x: 0, y: -0.13199075, z: -0, w: 0.991251}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid26 2
+      parentName: right 4
+      position: {x: -0.012734279, y: 0.03364195, z: 0.0016805466}
+      rotation: {x: 0.01209023, y: -0.058031935, z: -0.040725283, w: 0.9974104}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid27 2
+      parentName: right 4
+      position: {x: -0.014491575, y: 0.03364195, z: 0.0016629172}
+      rotation: {x: 0.0013867113, y: -0.07590784, z: -0.018212592, w: 0.9969476}
+      scale: {x: 0.110119216, y: 0.33655253, z: 0.07156959}
+    - name: pPyramid28 2
+      parentName: right 4
+      position: {x: -0.01525943, y: 0.03364195, z: 0.0008059084}
+      rotation: {x: -0.008373753, y: -0.68611753, z: -0.016232736, w: 0.7272614}
+      scale: {x: 0.11887186, y: 0.41561538, z: 0.0883827}
+    - name: top_tooth 2
+      parentName: shenqichuan_crocodile 2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: left 5
+      parentName: top_tooth 2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pPyramid8 4
+      parentName: left 5
+      position: {x: -0.005606732, y: 0.033599608, z: 0.003685599}
+      rotation: {x: -0.15152328, y: 0.00012150775, z: 0.9884461, w: -0.0038649077}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid9 4
+      parentName: left 5
+      position: {x: -0.007621116, y: 0.03390277, z: 0.0029824679}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid10 4
+      parentName: left 5
+      position: {x: -0.00977835, y: 0.034052856, z: 0.0023772006}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid11 4
+      parentName: left 5
+      position: {x: -0.011804585, y: 0.034052856, z: 0.0018340122}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid12 4
+      parentName: left 5
+      position: {x: -0.013667602, y: 0.03417933, z: 0.001852262}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.13304152, y: 0.40660894, z: 0.08646744}
+    - name: pPyramid13 4
+      parentName: left 5
+      position: {x: -0.015038707, y: 0.034234386, z: 0.0013831636}
+      rotation: {x: -0.26909825, y: 0.00058464234, z: 0.96310496, w: -0.0038223644}
+      scale: {x: 0.11256684, y: 0.34403312, z: 0.07316037}
+    - name: pPyramid14 2
+      parentName: left 5
+      position: {x: -0.01531761, y: 0.034113057, z: -0.0000053268564}
+      rotation: {x: 0.7191212, y: -0.0024370246, z: -0.69487387, w: 0.003002198}
+      scale: {x: 0.12908259, y: 0.39450943, z: 0.08389442}
+    - name: pPyramid30 2
+      parentName: left 5
+      position: {x: -0.007621116, y: 0.03390277, z: 0.0029824679}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid31 2
+      parentName: left 5
+      position: {x: -0.00977835, y: 0.034052856, z: 0.0023772006}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid32 2
+      parentName: left 5
+      position: {x: -0.011804585, y: 0.034052856, z: 0.0018340122}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid33 2
+      parentName: left 5
+      position: {x: -0.013667602, y: 0.03417933, z: 0.001852262}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.13304152, y: 0.40660894, z: 0.08646744}
+    - name: pPyramid34 2
+      parentName: left 5
+      position: {x: -0.015038707, y: 0.034234386, z: 0.0013831636}
+      rotation: {x: -0.26909825, y: 0.00058464234, z: 0.96310496, w: -0.0038223644}
+      scale: {x: 0.11256684, y: 0.34403312, z: 0.07316037}
+    - name: right 5
+      parentName: top_tooth 2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: -1}
+    - name: pPyramid8 5
+      parentName: right 5
+      position: {x: -0.005606732, y: 0.033751886, z: 0.003685599}
+      rotation: {x: -0.15152328, y: 0.00012150775, z: 0.9884461, w: -0.0038649077}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid9 5
+      parentName: right 5
+      position: {x: -0.007621116, y: 0.03390277, z: 0.0029824679}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid10 5
+      parentName: right 5
+      position: {x: -0.00977835, y: 0.034052856, z: 0.0023772006}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid11 5
+      parentName: right 5
+      position: {x: -0.011804585, y: 0.034052856, z: 0.0018340122}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid12 5
+      parentName: right 5
+      position: {x: -0.013667602, y: 0.03417933, z: 0.001852262}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.13304152, y: 0.40660894, z: 0.08646744}
+    - name: pPyramid13 5
+      parentName: right 5
+      position: {x: -0.015038707, y: 0.034234386, z: 0.0013831636}
+      rotation: {x: -0.26909825, y: 0.00058464234, z: 0.96310496, w: -0.0038223644}
+      scale: {x: 0.11256684, y: 0.34403312, z: 0.07316037}
+    - name: pPyramid35 2
+      parentName: right 5
+      position: {x: -0.005606732, y: 0.033751886, z: 0.003685599}
+      rotation: {x: -0.15152328, y: 0.00012150775, z: 0.9884461, w: -0.0038649077}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid36 2
+      parentName: right 5
+      position: {x: -0.007621116, y: 0.03390277, z: 0.0029824679}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid37 2
+      parentName: right 5
+      position: {x: -0.00977835, y: 0.034052856, z: 0.0023772006}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid38 2
+      parentName: right 5
+      position: {x: -0.011804585, y: 0.034052856, z: 0.0018340122}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid39 2
+      parentName: right 5
+      position: {x: -0.013667602, y: 0.03417933, z: 0.001852262}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.13304152, y: 0.40660894, z: 0.08646744}
+    - name: pPyramid40 2
+      parentName: right 5
+      position: {x: -0.015038707, y: 0.034234386, z: 0.0013831636}
+      rotation: {x: -0.26909825, y: 0.00058464234, z: 0.96310496, w: -0.0038223644}
+      scale: {x: 0.11256684, y: 0.34403312, z: 0.07316037}
+    - name: lowpoly
+      parentName: lod_crocodile(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shenqichuan_crocodile 1
+      parentName: lowpoly
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body 1
+      parentName: shenqichuan_crocodile 1
+      position: {x: -0, y: 0.017581474, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.67725825, y: 0.67725825, z: 0.67725825}
+    - name: shenqichuan_crocodile 4
+      parentName: body 1
+      position: {x: -0, y: 0.017072652, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eye 1
+      parentName: shenqichuan_crocodile 1
+      position: {x: 1.110223e-18, y: 0.039046064, z: 1.6653345e-18}
+      rotation: {x: 0, y: 0, z: 0.6708371, w: 0.74160475}
+      scale: {x: 0.12971497, y: 0.06609326, z: 0.12971497}
+    - name: bottom_tooth 1
+      parentName: shenqichuan_crocodile 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: left 2
+      parentName: bottom_tooth 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pPyramid1 2
+      parentName: left 2
+      position: {x: -0.0045765713, y: 0.03394074, z: 0.004083514}
+      rotation: {x: 0, y: -0.15813453, z: -0, w: 0.9874176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid2 2
+      parentName: left 2
+      position: {x: -0.006632808, y: 0.03394074, z: 0.003378135}
+      rotation: {x: 0, y: -0.14155187, z: -0, w: 0.98993087}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid3 2
+      parentName: left 2
+      position: {x: -0.008682021, y: 0.03389499, z: 0.0027415429}
+      rotation: {x: 0, y: -0.12658578, z: -0, w: 0.9919557}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid4 2
+      parentName: left 2
+      position: {x: -0.010784849, y: 0.033870436, z: 0.0020784105}
+      rotation: {x: 0, y: -0.13199075, z: -0, w: 0.991251}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid5 2
+      parentName: left 2
+      position: {x: -0.012734279, y: 0.03364195, z: 0.0016805466}
+      rotation: {x: 0.01209023, y: -0.058031935, z: -0.040725283, w: 0.9974104}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid6 2
+      parentName: left 2
+      position: {x: -0.014491575, y: 0.03364195, z: 0.0016629172}
+      rotation: {x: 0.0013867113, y: -0.07590784, z: -0.018212592, w: 0.9969476}
+      scale: {x: 0.110119216, y: 0.33655253, z: 0.07156959}
+    - name: pPyramid7 2
+      parentName: left 2
+      position: {x: -0.015534241, y: 0.03364195, z: 0.00067734317}
+      rotation: {x: -0.009395243, y: -0.6381779, z: -0.01566368, w: 0.7696723}
+      scale: {x: 0.110119216, y: 0.33655253, z: 0.07156959}
+    - name: pPyramid15 1
+      parentName: left 2
+      position: {x: -0.0045765713, y: 0.03394074, z: 0.004083514}
+      rotation: {x: 0, y: -0.15813453, z: -0, w: 0.9874176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid16 1
+      parentName: left 2
+      position: {x: -0.006632808, y: 0.03394074, z: 0.003378135}
+      rotation: {x: 0, y: -0.14155187, z: -0, w: 0.98993087}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid17 1
+      parentName: left 2
+      position: {x: -0.008682021, y: 0.03389499, z: 0.0027415429}
+      rotation: {x: 0, y: -0.12658578, z: -0, w: 0.9919557}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid18 1
+      parentName: left 2
+      position: {x: -0.010784849, y: 0.033870436, z: 0.0020784105}
+      rotation: {x: 0, y: -0.13199075, z: -0, w: 0.991251}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid19 1
+      parentName: left 2
+      position: {x: -0.012734279, y: 0.03364195, z: 0.0016805466}
+      rotation: {x: 0.01209023, y: -0.058031935, z: -0.040725283, w: 0.9974104}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid20 1
+      parentName: left 2
+      position: {x: -0.014491575, y: 0.03364195, z: 0.0016629172}
+      rotation: {x: 0.0013867113, y: -0.07590784, z: -0.018212592, w: 0.9969476}
+      scale: {x: 0.110119216, y: 0.33655253, z: 0.07156959}
+    - name: pPyramid21 1
+      parentName: left 2
+      position: {x: -0.015534241, y: 0.03364195, z: 0.00067734317}
+      rotation: {x: -0.009395243, y: -0.6381779, z: -0.01566368, w: 0.7696723}
+      scale: {x: 0.110119216, y: 0.33655253, z: 0.07156959}
+    - name: right 2
+      parentName: bottom_tooth 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: -1}
+    - name: pPyramid1 3
+      parentName: right 2
+      position: {x: -0.0045765713, y: 0.03394074, z: 0.004083514}
+      rotation: {x: 0, y: -0.15813453, z: -0, w: 0.9874176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid2 3
+      parentName: right 2
+      position: {x: -0.006632808, y: 0.03394074, z: 0.003378135}
+      rotation: {x: 0, y: -0.14155187, z: -0, w: 0.98993087}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid3 3
+      parentName: right 2
+      position: {x: -0.008682021, y: 0.03389499, z: 0.0027415429}
+      rotation: {x: 0, y: -0.12658578, z: -0, w: 0.9919557}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid4 3
+      parentName: right 2
+      position: {x: -0.010784849, y: 0.033870436, z: 0.0020784105}
+      rotation: {x: 0, y: -0.13199075, z: -0, w: 0.991251}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid5 3
+      parentName: right 2
+      position: {x: -0.012734279, y: 0.03364195, z: 0.0016805466}
+      rotation: {x: 0.01209023, y: -0.058031935, z: -0.040725283, w: 0.9974104}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid6 3
+      parentName: right 2
+      position: {x: -0.014491575, y: 0.03364195, z: 0.0016629172}
+      rotation: {x: 0.0013867113, y: -0.07590784, z: -0.018212592, w: 0.9969476}
+      scale: {x: 0.110119216, y: 0.33655253, z: 0.07156959}
+    - name: pPyramid7 3
+      parentName: right 2
+      position: {x: -0.01525943, y: 0.03364195, z: 0.0008059084}
+      rotation: {x: -0.008373753, y: -0.68611753, z: -0.016232736, w: 0.7272614}
+      scale: {x: 0.11887186, y: 0.41561538, z: 0.0883827}
+    - name: pPyramid22 1
+      parentName: right 2
+      position: {x: -0.0045765713, y: 0.03394074, z: 0.004083514}
+      rotation: {x: 0, y: -0.15813453, z: -0, w: 0.9874176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid23 1
+      parentName: right 2
+      position: {x: -0.006632808, y: 0.03394074, z: 0.003378135}
+      rotation: {x: 0, y: -0.14155187, z: -0, w: 0.98993087}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid24 1
+      parentName: right 2
+      position: {x: -0.008682021, y: 0.03389499, z: 0.0027415429}
+      rotation: {x: 0, y: -0.12658578, z: -0, w: 0.9919557}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid25 1
+      parentName: right 2
+      position: {x: -0.010784849, y: 0.033870436, z: 0.0020784105}
+      rotation: {x: 0, y: -0.13199075, z: -0, w: 0.991251}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid26 1
+      parentName: right 2
+      position: {x: -0.012734279, y: 0.03364195, z: 0.0016805466}
+      rotation: {x: 0.01209023, y: -0.058031935, z: -0.040725283, w: 0.9974104}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid27 1
+      parentName: right 2
+      position: {x: -0.014491575, y: 0.03364195, z: 0.0016629172}
+      rotation: {x: 0.0013867113, y: -0.07590784, z: -0.018212592, w: 0.9969476}
+      scale: {x: 0.110119216, y: 0.33655253, z: 0.07156959}
+    - name: pPyramid28 1
+      parentName: right 2
+      position: {x: -0.01525943, y: 0.03364195, z: 0.0008059084}
+      rotation: {x: -0.008373753, y: -0.68611753, z: -0.016232736, w: 0.7272614}
+      scale: {x: 0.11887186, y: 0.41561538, z: 0.0883827}
+    - name: top_tooth 1
+      parentName: shenqichuan_crocodile 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: left 3
+      parentName: top_tooth 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pPyramid8 2
+      parentName: left 3
+      position: {x: -0.005606732, y: 0.033599608, z: 0.003685599}
+      rotation: {x: -0.15152328, y: 0.00012150775, z: 0.9884461, w: -0.0038649077}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid9 2
+      parentName: left 3
+      position: {x: -0.007621116, y: 0.03390277, z: 0.0029824679}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid10 2
+      parentName: left 3
+      position: {x: -0.00977835, y: 0.034052856, z: 0.0023772006}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid11 2
+      parentName: left 3
+      position: {x: -0.011804585, y: 0.034052856, z: 0.0018340122}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid12 2
+      parentName: left 3
+      position: {x: -0.013667602, y: 0.03417933, z: 0.001852262}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.13304152, y: 0.40660894, z: 0.08646744}
+    - name: pPyramid13 2
+      parentName: left 3
+      position: {x: -0.015038707, y: 0.034234386, z: 0.0013831636}
+      rotation: {x: -0.26909825, y: 0.00058464234, z: 0.96310496, w: -0.0038223644}
+      scale: {x: 0.11256684, y: 0.34403312, z: 0.07316037}
+    - name: pPyramid14 1
+      parentName: left 3
+      position: {x: -0.01531761, y: 0.034113057, z: -0.0000053268564}
+      rotation: {x: 0.7191212, y: -0.0024370246, z: -0.69487387, w: 0.003002198}
+      scale: {x: 0.12908259, y: 0.39450943, z: 0.08389442}
+    - name: pPyramid30 1
+      parentName: left 3
+      position: {x: -0.007621116, y: 0.03390277, z: 0.0029824679}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid31 1
+      parentName: left 3
+      position: {x: -0.00977835, y: 0.034052856, z: 0.0023772006}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid32 1
+      parentName: left 3
+      position: {x: -0.011804585, y: 0.034052856, z: 0.0018340122}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid33 1
+      parentName: left 3
+      position: {x: -0.013667602, y: 0.03417933, z: 0.001852262}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.13304152, y: 0.40660894, z: 0.08646744}
+    - name: pPyramid34 1
+      parentName: left 3
+      position: {x: -0.015038707, y: 0.034234386, z: 0.0013831636}
+      rotation: {x: -0.26909825, y: 0.00058464234, z: 0.96310496, w: -0.0038223644}
+      scale: {x: 0.11256684, y: 0.34403312, z: 0.07316037}
+    - name: right 3
+      parentName: top_tooth 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: -1}
+    - name: pPyramid8 3
+      parentName: right 3
+      position: {x: -0.005606732, y: 0.033751886, z: 0.003685599}
+      rotation: {x: -0.15152328, y: 0.00012150775, z: 0.9884461, w: -0.0038649077}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid9 3
+      parentName: right 3
+      position: {x: -0.007621116, y: 0.03390277, z: 0.0029824679}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid10 3
+      parentName: right 3
+      position: {x: -0.00977835, y: 0.034052856, z: 0.0023772006}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid11 3
+      parentName: right 3
+      position: {x: -0.011804585, y: 0.034052856, z: 0.0018340122}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid12 3
+      parentName: right 3
+      position: {x: -0.013667602, y: 0.03417933, z: 0.001852262}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.13304152, y: 0.40660894, z: 0.08646744}
+    - name: pPyramid13 3
+      parentName: right 3
+      position: {x: -0.015038707, y: 0.034234386, z: 0.0013831636}
+      rotation: {x: -0.26909825, y: 0.00058464234, z: 0.96310496, w: -0.0038223644}
+      scale: {x: 0.11256684, y: 0.34403312, z: 0.07316037}
+    - name: pPyramid35 1
+      parentName: right 3
+      position: {x: -0.005606732, y: 0.033751886, z: 0.003685599}
+      rotation: {x: -0.15152328, y: 0.00012150775, z: 0.9884461, w: -0.0038649077}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid36 1
+      parentName: right 3
+      position: {x: -0.007621116, y: 0.03390277, z: 0.0029824679}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid37 1
+      parentName: right 3
+      position: {x: -0.00977835, y: 0.034052856, z: 0.0023772006}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid38 1
+      parentName: right 3
+      position: {x: -0.011804585, y: 0.034052856, z: 0.0018340122}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.1645716, y: 0.50297296, z: 0.10695972}
+    - name: pPyramid39 1
+      parentName: right 3
+      position: {x: -0.013667602, y: 0.03417933, z: 0.001852262}
+      rotation: {x: -0.12031626, y: -0.00000028069493, z: 0.9927281, w: -0.0038668176}
+      scale: {x: 0.13304152, y: 0.40660894, z: 0.08646744}
+    - name: pPyramid40 1
+      parentName: right 3
+      position: {x: -0.015038707, y: 0.034234386, z: 0.0013831636}
+      rotation: {x: -0.26909825, y: 0.00058464234, z: 0.96310496, w: -0.0038223644}
+      scale: {x: 0.11256684, y: 0.34403312, z: 0.07316037}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
